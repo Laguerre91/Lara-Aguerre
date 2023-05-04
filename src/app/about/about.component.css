@@ -15,7 +15,6 @@ h2 {
 .cont {
     background-color: rgba(243, 17, 55, 0.5);
     border: 2px solid rgba(0, 0, 0, 0.83);
-    box-shadow: 3px 3px 3px 3px rgba(133, 125, 132, 0.83);
     padding: 30px;
     height: fit-content;
 }

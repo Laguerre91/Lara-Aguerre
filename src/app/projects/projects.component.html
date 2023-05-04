@@ -1,0 +1,41 @@
+<div class="container-fluid text-center" data-aos="flip-left" data-aos-duration="800" id="projects">
+    <h2>Projects</h2>
+
+    <div class="row">
+        <div class="col col-cont">
+            <div class="weather">
+                <h3>Touch the image :)</h3>
+                <div class="responsive-container">
+                    <div *ngIf="weatherApp; else descriptionWeatherApp">
+                        <img class="weatherImage cellphone" src="./assets/img/weatherApp.png" alt="weather App"
+                            width="230" (click)="setDescription()">
+                    </div>
+
+                    <ng-template #descriptionWeatherApp>
+                        <img class="descriptionImage cellphone" src="./assets/img/descriptionWeather.png"
+                            alt="weather app description" width="230" (click)="backWeather()">
+                    </ng-template>
+
+                    <div *ngIf="meltingApp; else descriptionMelting">
+                        <img class="weatherImage cellphone" src="./assets/img/meltingApp.png" alt="melting App"
+                            width="230" (click)="setDescriptionMelt()">
+                    </div>
+
+                    <ng-template #descriptionMelting>
+                        <img class="descriptionImage cellphone" src="./assets/img/descriptionMelting.png"
+                            alt="melting snowman app description" width="230" (click)="backMelt()">
+                    </ng-template>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col col-cont">
+            <img class="computer" src="./assets/img/crudApp.png" alt="Crud App">
+            <p>Classical CRUD in which you can make your shopping list. You can add items, delete them, and mark them as
+                you buy them! <br> It is made completly with vanilla JavaScript </p>
+        </div>
+    </div>
+</div>

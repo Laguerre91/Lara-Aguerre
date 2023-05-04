@@ -1,0 +1,52 @@
+h2 {
+    color: rgba(166, 73, 176, 0.777);
+    font-size: 80px;
+    text-shadow: 5px 5px 5px rgb(53, 16, 50);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.col-cont {
+    background-color: rgba(86, 44, 226, 0.637);
+    border: 2px solid rgba(0, 0, 0, 0.83);
+    box-shadow: 3px 5px 5px 5px rgba(116, 116, 116, 0.83);
+    padding: 25px;
+    height: auto;
+    margin: 10px;
+}
+
+.cellphone {
+    margin: 10px;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(233, 222, 233, 0.698);
+    font-size: 40px;
+    text-shadow: 5px 5px 5px rgb(53, 16, 50);
+}
+
+.computer {
+    position: relative;
+    right: 10%;
+    width: 120%;
+}
+
+p {
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+
+    .container-fluid {
+        width: 70%;
+        margin-top: 15%;
+    }
+
+
+    .responsive-container {
+        display: flex;
+        justify-content: center;
+    }
+
+}

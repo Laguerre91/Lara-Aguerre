@@ -1,0 +1,126 @@
+.container {
+    margin-bottom: 15%;
+}
+
+/* ******HELLO SLIDER******* */
+
+.slider {
+    height: auto;
+    overflow: hidden;
+    margin-top: 5%;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.no-margin-no-padding {
+    margin: 0;
+    padding: 0;
+}
+
+.slider .slide-in {
+    animation: slide-in 40s linear infinite;
+    width: calc(200px * 14);
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-200px * 7));
+    }
+}
+
+.slider .slide {
+    width: 300px;
+}
+
+.slider .slide img {
+    width: 100%;
+    opacity: 80%;
+}
+
+/* *******MAIN TITLE********** */
+
+.title-container {
+    border: 1px solid rgb(11, 11, 11);
+    box-shadow: 3px 3px 3px 3px rgba(133, 125, 132, 0.83);
+}
+
+h1 {
+    color: rgb(3, 3, 3);
+    font-family: 'Staatliches', cursive;
+    font-size: 100px;
+    opacity: 90%;
+}
+
+.frontend {
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(125, 41, 228, 0.85);
+    text-shadow: 1px 1px 1px rgb(217, 33, 223);
+    animation: enter-2 3s;
+}
+
+.frontend h3 {
+    font-size: 30px;
+}
+
+@keyframes enter-2 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 100%;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+        ;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .lara-photo {
+        display: inline !important;
+        width: 100%;
+        position: relative;
+        right: 5%;
+    }
+
+    .picture {
+        width: 100%;
+        position: relative;
+        bottom: 20%;
+    }
+
+    .title-container {
+        height: fit-content;
+    }
+
+    h1 {
+        font-size: 160px;
+    }
+
+    .social-media {
+        display: inline !important;
+    }
+}

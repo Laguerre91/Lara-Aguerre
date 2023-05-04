@@ -1,0 +1,65 @@
+* {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container-fluid {
+    margin-top: 50%;
+}
+
+h2 {
+    color: rgba(233, 222, 233, 0.698);
+    font-size: 40px;
+    text-shadow: 5px 5px 5px rgb(53, 16, 50);
+}
+
+.cont {
+    background-color: rgba(243, 17, 55, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.83);
+    box-shadow: 3px 3px 3px 3px rgba(133, 125, 132, 0.83);
+    padding: 30px;
+    height: fit-content;
+}
+
+p {
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(47, 45, 45, 0.639);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tec-title {
+    color: rgba(233, 222, 233, 0.698);
+    font-size: 45px;
+    text-shadow: 5px 5px 5px rgb(53, 16, 50);
+}
+
+.logo {
+    width: 70%;
+}
+
+.cert {
+    margin: 2%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .container-fluid {
+        width: 70%;
+        margin-top: 15%;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .tech-title {
+        font-size: 50px;
+    }
+
+    .tech-logos img {
+        width: 50%;
+    }
+
+}

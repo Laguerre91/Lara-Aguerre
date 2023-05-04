@@ -1,0 +1,42 @@
+.dropdown-menu {
+    background-color: rgb(251, 192, 255);
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        display: inline !important;
+        width: 70%;
+        height: 50px;
+        left: 15%;
+        background-color: rgba(166, 78, 233, 0.814);
+        border: solid 2px rgb(0, 0, 0);
+        box-shadow: 3px 3px 3px 3px rgba(133, 125, 132, 0.83);
+        margin: 8px !important;
+        z-index: 2222;
+    }
+
+    ul li a {
+        color: rgb(4, 4, 4);
+        font-family: 'DotGothic16', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    ul {
+        margin: 5px;
+    }
+
+    ul li {
+        cursor: pointer;
+    }
+
+    li:hover {
+        background-color: rgba(245, 116, 234, 0.719);
+    }
+
+    .c-responsive {
+        display: none !important;
+    }
+}

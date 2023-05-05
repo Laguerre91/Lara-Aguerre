@@ -7,14 +7,15 @@
 }
 
 h2 {
-    color: rgba(233, 222, 233, 0.698);
+    color: rgba(252, 251, 252, 0.698);
     font-size: 40px;
-    text-shadow: 5px 5px 5px rgb(53, 16, 50);
+    text-shadow: 3px 3px 3px rgb(53, 16, 50);
 }
 
 .cont {
-    background-color: rgba(243, 17, 55, 0.5);
     border: 2px solid rgba(0, 0, 0, 0.83);
+    box-shadow: 3px 5px 5px 5px rgba(116, 116, 116, 0.83);
+    background-color: rgba(255, 192, 203, 0.5);
     padding: 30px;
     height: fit-content;
 }
@@ -23,15 +24,9 @@ p {
     font-family: 'DotGothic16', sans-serif;
     color: white;
     font-size: 15px;
-    background-color: rgba(47, 45, 45, 0.639);
+    background-color: rgb(47, 45, 45);
     border: 1px solid black;
     padding: 10px;
-}
-
-.tec-title {
-    color: rgba(233, 222, 233, 0.698);
-    font-size: 45px;
-    text-shadow: 5px 5px 5px rgb(53, 16, 50);
 }
 
 .logo {

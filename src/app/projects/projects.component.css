@@ -6,7 +6,7 @@ h2 {
 }
 
 .col-cont {
-    background-color: rgba(86, 44, 226, 0.637);
+    background-color: rgba(181, 108, 236, 0.497);
     border: 2px solid rgba(0, 0, 0, 0.83);
     box-shadow: 3px 5px 5px 5px rgba(116, 116, 116, 0.83);
     padding: 25px;
@@ -20,20 +20,23 @@ h2 {
 
 h3 {
     font-family: 'Bebas Neue', cursive;
-    color: rgba(233, 222, 233, 0.698);
+    color: rgba(252, 251, 252, 0.698);
     font-size: 40px;
-    text-shadow: 5px 5px 5px rgb(53, 16, 50);
+    text-shadow: 3px 3px 3px rgb(53, 16, 50);
 }
 
 .computer {
     position: relative;
-    right: 10%;
-    width: 120%;
+    right: 5%;
+    width: 110%;
 }
 
 p {
     font-family: 'DotGothic16', sans-serif;
     color: white;
+    background-color: rgba(47, 45, 45, 0.639);
+    border: 1px solid black;
+    padding: 10px;
 }
 
 @media screen and (min-width: 768px) {

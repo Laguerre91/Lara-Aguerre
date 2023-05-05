@@ -1,0 +1,70 @@
+.container-fluid {
+    margin-top: 20%;
+}
+
+.contact-form {
+    border: 2px solid rgba(0, 0, 0, 0.83);
+    box-shadow: 3px 5px 5px 5px rgba(116, 116, 116, 0.83);
+    padding: 25px;
+    height: auto;
+    margin: 10px;
+}
+
+.col {
+    margin: 5px;
+}
+
+.form-input {
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.83);
+    box-shadow: 3px 5px 5px 5px rgba(116, 116, 116, 0.83);
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(166, 73, 176, 0.777);
+    font-size: 60px;
+    text-shadow: 2px 2px 2px rgb(53, 16, 50);
+}
+
+label {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+.submit-button {
+    font-family: 'Bebas Neue', cursive;
+    width: 40%;
+    padding: 5px;
+    background-color: rgba(166, 73, 176, 0.715);
+    ;
+}
+
+span {
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    right: 25%;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.668);
+    border-radius: 5px;
+    color: red;
+    padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .contact-form {
+        float: right;
+        width: 70%;
+        margin: 30px;
+    }
+
+    .submit-button {
+        font-size: 20px;
+    }
+
+    .finde-me {
+        position: relative;
+        top: 20%;
+    }
+}

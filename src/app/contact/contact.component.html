@@ -1,4 +1,61 @@
-<div id="contact">
+<section class="container-fluid text-center d-flex justify-content-center" id="contact">
+    <div class="contact ">
+        <h2>Contact me :) </h2>
 
-</div>
-<p>contact works!</p>
+        <div class="contact-form row">
+            <form #formContact="ngForm" (ngSubmit)="onSubmit()" action="https://formsubmit.co/aguerre.lara@gmail.com"
+                method="POST">
+                <div class="col">
+                    <label for="name">Name</label>
+                    <input class="form-input" type="text" name="name" #name="ngModel" [(ngModel)]="usuario.name"
+                        required pattern="[a-zA-Z]+">
+                    <span *ngIf="name.touched && !name.valid">Please introduce a valid name :(</span>
+                </div>
+
+                <div class="col">
+                    <label for="last-name">Last Name</label>
+                    <input class="form-input" type="text" name="last-name" #lastName="ngModel"
+                        [(ngModel)]="usuario.lastName" required pattern="[a-zA-Z]+">
+                    <span *ngIf="lastName.touched && !lastName.valid">Please introduce a valid last name :(</span>
+                </div>
+
+                <div class="col">
+                    <label for="email">Email</label>
+                    <input class="form-input" type="email" name="email" #email="ngModel" [(ngModel)]="usuario.email"
+                        required>
+                    <span *ngIf="email.touched && !email.valid">Please introduce a valid email :(</span>
+                </div>
+
+                <div class="col">
+                    <label for="message">Messagge</label>
+                    <textarea class="form-input" name="message" id="" cols="30" rows="5" #message="ngModel"
+                        [(ngModel)]="usuario.message" required></textarea>
+
+                    <span *ngIf="message.touched && !message.valid">Please introduce a valid message :(</span>
+                </div>
+
+                <input class="submit-button" type="submit" value="Send">
+            </form>
+        </div>
+
+        <div class="finde-me row">
+            <div class="col">
+                <a href="https://www.linkedin.com/in/lara-aguerre/" target="_blank">
+                    <img src="./assets/img/linkedin.png" alt="logo linkedin" width="80" height="80">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="https://github.com/Laguerre91/" target="_blank">
+                    <img src="./assets/img/github.png" alt="logo github" width="80" height="80">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="mailto:aguerre.lara@gmail.com">
+                    <img src="./assets/img/gmail.png" alt="logo gmail" width="80" height="80">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

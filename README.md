@@ -1,27 +1,12 @@
-# PortApp
+Web Portfolio App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
-## Development server
+Creating my portfolio website was a challenging yet rewarding experience that helped me improve my web development skills. I decided to use Angular, a popular JavaScript framework, to build my website because it offers many powerful features for building scalable and maintainable web applications.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To start, I learned how to use Angular's command-line interface (CLI) to quickly generate a new project and create components for my website. I also used the Angular Material library to add pre-built UI components and styles to my website, which saved me a lot of time and effort.
 
-## Code scaffolding
+Next, I used JavaScript and TypeScript to implement dynamic features such as form validation, animations, and data binding. I also used Bootstrap, a popular CSS framework, to add responsive design and layout to my website.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Throughout the development process, I encountered many challenges, such as debugging errors, optimizing performance, and ensuring compatibility across different browsers and devices. However, I learned a lot from these challenges and was able to overcome them by using best practices and seeking help from online resources and forums.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Overall, creating my portfolio website using Angular, JavaScript, and Bootstrap was a great learning experience that helped me improve my web development skills and build a professional online presence.

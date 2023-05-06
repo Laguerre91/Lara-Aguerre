@@ -3,8 +3,7 @@
         <h2>Contact me :) </h2>
 
         <div class="contact-form row">
-            <form #formContact="ngForm" (ngSubmit)="onSubmit()" action="https://formsubmit.co/aguerre.lara@gmail.com"
-                method="POST">
+            <form #formContact="ngForm" (ngSubmit)="onSubmit()" action="https://formspree.io/f/xayzvawj" method="POST">
                 <div class="col">
                     <label for="name">Name</label>
                     <input class="form-input" type="text" name="name" #name="ngModel" [(ngModel)]="usuario.name"

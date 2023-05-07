@@ -3,11 +3,11 @@
 }
 
 .contact-form {
-    border: 2px solid rgba(0, 0, 0, 0.83);
-    box-shadow: 3px 5px 5px 5px rgba(116, 116, 116, 0.83);
+    border: 2px solid rgba(239, 237, 237, 0.83);
+    box-shadow: 3px 3px 3px 3px rgb(224, 222, 222);
     padding: 25px;
     height: auto;
-    margin: 10px;
+
 }
 
 .col {
@@ -17,12 +17,12 @@
 .form-input {
     width: 100%;
     border: 2px solid rgba(0, 0, 0, 0.83);
-    box-shadow: 3px 5px 5px 5px rgba(116, 116, 116, 0.83);
+    box-shadow: 3px 3px 3px 3px rgba(221, 218, 218, 0.83);
 }
 
 h2 {
     font-family: 'Bebas Neue', cursive;
-    color: rgba(166, 73, 176, 0.777);
+    color: rgba(237, 233, 237, 0.777);
     font-size: 60px;
     text-shadow: 2px 2px 2px rgb(53, 16, 50);
 }
@@ -30,13 +30,14 @@ h2 {
 label {
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
+    color: white;
 }
 
 .submit-button {
     font-family: 'Bebas Neue', cursive;
     width: 40%;
     padding: 5px;
-    background-color: rgba(166, 73, 176, 0.715);
+    background-color: rgba(226, 56, 245, 0.815);
     ;
 }
 
@@ -53,9 +54,20 @@ span {
 
 @media screen and (min-width: 768px) {
 
+    .container-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact {
+        width: 100%;
+        display: inline;
+        justify-content: center;
+    }
+
     .contact-form {
-        float: right;
-        width: 70%;
+        width: 40%;
         margin: 30px;
     }
 
@@ -63,8 +75,7 @@ span {
         font-size: 20px;
     }
 
-    .finde-me {
-        position: relative;
-        top: 20%;
+    .find-me {
+        width: 10%;
     }
 }

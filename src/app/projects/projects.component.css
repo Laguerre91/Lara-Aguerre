@@ -1,14 +1,14 @@
 h2 {
-    color: rgba(166, 73, 176, 0.777);
+    color: rgba(166, 73, 176, 0.914);
     font-size: 80px;
-    text-shadow: 5px 5px 5px rgb(53, 16, 50);
+    text-shadow: 3px 3px 3px rgb(207, 203, 207);
     font-family: 'Bebas Neue', cursive;
 }
 
 .col-cont {
-    background-color: rgba(181, 108, 236, 0.497);
+    background-color: rgba(180, 108, 236, 0.745);
     border: 2px solid rgba(0, 0, 0, 0.83);
-    box-shadow: 3px 5px 5px 5px rgba(116, 116, 116, 0.83);
+    box-shadow: 3px 5px 5px 5px rgba(229, 227, 227, 0.83);
     padding: 25px;
     height: auto;
     margin: 10px;

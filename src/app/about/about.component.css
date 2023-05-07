@@ -7,15 +7,15 @@
 }
 
 h2 {
-    color: rgba(252, 251, 252, 0.698);
+    color: rgba(252, 251, 252, 0.812);
     font-size: 40px;
     text-shadow: 3px 3px 3px rgb(53, 16, 50);
 }
 
 .cont {
     border: 2px solid rgba(0, 0, 0, 0.83);
-    box-shadow: 3px 5px 5px 5px rgba(116, 116, 116, 0.83);
-    background-color: rgba(255, 192, 203, 0.5);
+    box-shadow: 3px 5px 5px 5px rgba(231, 227, 227, 0.83);
+    background-color: rgba(225, 34, 136, 0.77);
     padding: 30px;
     height: fit-content;
 }

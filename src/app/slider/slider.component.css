@@ -45,12 +45,12 @@
 /* *******MAIN TITLE********** */
 
 .title-container {
-    border: 1px solid rgb(11, 11, 11);
-    box-shadow: 3px 3px 3px 3px rgba(133, 125, 132, 0.83);
+    border: 1px solid rgb(209, 206, 206);
+    box-shadow: 3px 3px 3px 3px rgba(249, 247, 247, 0.83);
 }
 
 h1 {
-    color: rgb(3, 3, 3);
+    color: rgb(237, 233, 233);
     font-family: 'Staatliches', cursive;
     font-size: 100px;
     opacity: 90%;
@@ -60,7 +60,7 @@ h1 {
     width: 100%;
     font-family: 'Bebas Neue', cursive;
     color: rgba(125, 41, 228, 0.85);
-    text-shadow: 1px 1px 1px rgb(217, 33, 223);
+    text-shadow: 1px 1px 1px rgb(197, 194, 197);
     animation: enter-2 3s;
 }
 

@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,7 @@ import { FooterComponent } from './footer/footer.component';
     AboutComponent,
     ProjectsComponent,
     ContactComponent,
-    FooterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserAnimationsModule,

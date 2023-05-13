@@ -1,3 +1,19 @@
+#projects-title {
+    margin-top: 40%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    width: 97%;
+    border: 1px solid rgb(209, 206, 206);
+    box-shadow: 3px 3px 3px 3px rgba(249, 247, 247, 0.83);
+    padding: 5px;
+}
+
+#projects-title h2 {
+    color: rgb(211, 211, 215);
+    text-shadow: 4px 4px 4px rgb(168, 15, 15);
+    font-size: 100px;
+}
+
 h2 {
     color: rgba(166, 73, 176, 0.914);
     font-size: 80px;
@@ -43,8 +59,18 @@ p {
 
     .container-fluid {
         width: 60%;
-        margin-top: 15%;
     }
+
+    #projects-title {
+        margin-top: 15%;
+        margin-left: 1.5%;
+        margin-bottom: 10%;
+    }
+
+    #projects-title h2 {
+        font-size: 300px;
+    }
+
 
 
     .responsive-container {

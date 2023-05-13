@@ -1,5 +1,20 @@
 .container-fluid {
-    margin-top: 20%;
+    margin-top: 10%;
+}
+
+#contact-title {
+    margin-top: 40%;
+    margin-left: 1%;
+    width: 97%;
+    border: 1px solid rgb(209, 206, 206);
+    box-shadow: 3px 3px 3px 3px rgba(249, 247, 247, 0.83);
+    padding: 5px;
+}
+
+#contact-title h2 {
+    color: rgb(211, 211, 215);
+    text-shadow: 4px 4px 4px rgb(168, 15, 15);
+    font-size: 100px;
 }
 
 .contact-form {
@@ -58,6 +73,14 @@ span {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    #contact-title {
+        margin-left: 1.5%;
+    }
+
+    #contact-title h2 {
+        font-size: 300px;
     }
 
     .contact {

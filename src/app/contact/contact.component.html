@@ -1,11 +1,14 @@
+<div class="text-center" id="contact-title">
+    <h2>Contact me</h2>
+</div>
+
 <section class="container-fluid d-flex justify-content-center" id="contact">
     <div class="contact text-center ">
-        <h2>Contact me :) </h2>
 
         <div class="container-contact">
             <div class="contact-form row">
-
-                <form action="https://formspree.io/f/xayzvawj" method="POST">
+                <form #formContact="ngForm" (ngSubmit)="onSubmit()" action="https://formspree.io/f/xayzvawj"
+                    method="POST">
                     <div class="col">
                         <label for="name">Name</label>
                         <input class="form-input" type="text" name="name" #name="ngModel" [(ngModel)]="usuario.name"

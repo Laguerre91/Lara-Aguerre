@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ViewChild, ElementRef, Renderer2, OnInit } from '@angular/core';
 import { User } from '../models/usuario.model';
 
 @Component({
@@ -7,10 +7,13 @@ import { User } from '../models/usuario.model';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+
+
   public usuario: User;
 
-  constructor() {
-    this.usuario = new User('', '', '', '')
+  constructor(private renderer2: Renderer2) {
+    this.usuario = new User('', '', '', '');
+
   }
 
   ngOnInit(): void {

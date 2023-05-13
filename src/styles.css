@@ -6,3 +6,12 @@
 body {
     background-image: url(./assets/img/background2.png);
 }
+
+body::-webkit-scrollbar {
+    width: 7px;
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(141, 17, 139);
+}

@@ -4,8 +4,7 @@
 
         <div class="container-contact">
             <div class="contact-form row">
-                <form #formContact="ngForm" (ngSubmit)="onSubmit()" action="https://formspree.io/f/xayzvawj"
-                    method="POST">
+                <form action="https://formspree.io/f/xayzvawj" method="POST">
                     <div class="col">
                         <label for="name">Name</label>
                         <input class="form-input" type="text" name="name" #name="ngModel" [(ngModel)]="usuario.name"

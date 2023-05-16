@@ -18,15 +18,16 @@
 }
 
 h2 {
-    color: rgba(252, 251, 252, 0.812);
+    color: rgba(0, 0, 0, 0.812);
     font-size: 40px;
-    text-shadow: 3px 3px 3px rgb(53, 16, 50);
+    border: 1px solid black;
+
 }
 
 .cont {
-    border: 2px solid rgba(0, 0, 0, 0.83);
-    box-shadow: 3px 5px 5px 5px rgba(231, 227, 227, 0.83);
-    background-color: rgba(225, 34, 136, 0.77);
+    background-color: rgba(251, 249, 252, 0.814);
+    border: solid 2px rgb(5, 5, 5);
+    box-shadow: 2px 2px 2px 2px rgba(235, 228, 16, 0.83);
     padding: 30px;
     height: fit-content;
 }
@@ -51,7 +52,7 @@ p {
 
 @media screen and (min-width: 768px) {
     .container-fluid {
-        width: 60%;
+        width: 65%;
     }
 
     #about-title {

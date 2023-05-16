@@ -96,7 +96,6 @@ h1 {
 }
 
 
-
 @media screen and (min-width: 768px) {
 
     .lara-photo {
@@ -104,12 +103,17 @@ h1 {
         width: 100%;
         position: relative;
         right: 5%;
+        background-color: rgba(225, 34, 136, 0.77);
+        border-radius: 500px;
+        height: 200px;
+
+
     }
 
     .picture {
         width: 100%;
         position: relative;
-        bottom: 20%;
+        bottom: 120px;
     }
 
     .title-container {

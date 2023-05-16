@@ -1,3 +1,7 @@
+.workInProg {
+    color: red;
+}
+
 .container-fluid {
     margin-top: 10%;
 }
@@ -80,7 +84,7 @@ span {
     }
 
     #contact-title h2 {
-        font-size: 300px;
+        font-size: 250px;
     }
 
     .contact {

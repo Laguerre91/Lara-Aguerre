@@ -32,6 +32,14 @@ h2 {
     height: fit-content;
 }
 
+.cont-resp {
+    background-color: rgb(237, 54, 54);
+}
+
+.cont-resp-2 {
+    background-color: rgb(63, 63, 234);
+}
+
 p {
     font-family: 'DotGothic16', sans-serif;
     color: white;
@@ -52,7 +60,15 @@ p {
 
 @media screen and (min-width: 768px) {
     .container-fluid {
-        width: 65%;
+        width: 85%;
+    }
+
+    .cont-ab-resp {
+        width: 60%;
+    }
+
+    .cont-tec-resp {
+        margin-left: 40%;
     }
 
     #about-title {

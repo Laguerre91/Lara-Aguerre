@@ -103,11 +103,8 @@ h1 {
         width: 100%;
         position: relative;
         right: 5%;
-        background-color: rgba(230, 230, 225, 0.788);
-        border-radius: 500px;
+        border: 1px solid rgba(230, 230, 225, 0.851);
         height: 450px;
-
-
     }
 
     .picture {

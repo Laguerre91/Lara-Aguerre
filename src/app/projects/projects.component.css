@@ -22,9 +22,9 @@ h2 {
 }
 
 .col-cont {
-    background-color: #ff2d68b1;
+    background-color: #fefefeb1;
     border: 2px solid rgba(0, 0, 0, 0.83);
-    box-shadow: 3px 5px 5px 5px rgba(229, 227, 227, 0.83);
+    box-shadow: 3px 3px 3px rgba(226, 219, 20, 0.83);
     padding: 25px;
     height: auto;
     margin: 10px;
@@ -36,9 +36,8 @@ h2 {
 
 h3 {
     font-family: 'Bebas Neue', cursive;
-    color: rgba(252, 251, 252, 0.698);
+    color: rgba(1, 1, 1, 0.698);
     font-size: 40px;
-    text-shadow: 3px 3px 3px rgb(53, 16, 50);
 }
 
 .computer {

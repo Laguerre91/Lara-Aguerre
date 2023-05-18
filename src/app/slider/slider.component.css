@@ -45,12 +45,13 @@
 /* *******MAIN TITLE********** */
 
 .title-container {
-    border: 1px solid rgb(209, 206, 206);
-    box-shadow: 3px 3px 3px 3px rgba(249, 247, 247, 0.83);
+    background-color: rgba(232, 232, 89, 0.872);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px 2px rgba(249, 247, 247, 0.83);
 }
 
 h1 {
-    color: rgb(237, 233, 233);
+    color: rgb(3, 3, 3);
     font-family: 'Staatliches', cursive;
     font-size: 100px;
     opacity: 90%;
@@ -103,7 +104,7 @@ h1 {
         width: 100%;
         position: relative;
         right: 5%;
-        border: 1px solid rgba(230, 230, 225, 0.851);
+        border: 1px solid rgba(242, 242, 12, 0.851);
         height: 450px;
     }
 

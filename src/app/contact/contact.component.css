@@ -43,7 +43,7 @@
 
 h2 {
     font-family: 'Bebas Neue', cursive;
-    color: rgba(237, 233, 237, 0.777);
+    color: rgba(4, 3, 4, 0.777);
     font-size: 60px;
     text-shadow: 2px 2px 2px rgb(53, 16, 50);
 }
@@ -51,7 +51,7 @@ h2 {
 label {
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
-    color: white;
+    color: rgb(4, 4, 4);
 }
 
 .submit-button {

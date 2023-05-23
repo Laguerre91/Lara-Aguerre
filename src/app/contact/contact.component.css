@@ -16,14 +16,16 @@
 }
 
 #contact-title h2 {
-    color: rgb(211, 211, 215);
-    text-shadow: 4px 4px 4px rgb(168, 15, 15);
+    color: rgb(6, 6, 6);
+    background-color: rgba(244, 171, 76, 0.774);
+    border: 1px solid rgb(209, 206, 206);
+    box-shadow: 3px 3px 3px 3px rgba(4, 3, 3, 0.83);
     font-size: 100px;
 }
 
 .contact-form {
-    border: 1px solid rgba(239, 237, 237, 0.83);
-    box-shadow: 3px 3px 3px 3px #FF2D6A;
+    border: 1px solid rgba(3, 3, 3, 0.83);
+    box-shadow: 3px 3px 3px 3px #070707;
     padding: 25px;
     height: auto;
 
@@ -36,7 +38,7 @@
 .form-input {
     width: 100%;
     border: 2px solid rgba(0, 0, 0, 0.83);
-    box-shadow: 3px 3px 3px 3px #FF2D6A;
+    box-shadow: 3px 3px 3px 3px #010101;
 }
 
 h2 {

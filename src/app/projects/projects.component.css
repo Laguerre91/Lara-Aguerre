@@ -3,16 +3,15 @@
     margin-left: 1%;
     margin-bottom: 5%;
     width: 97%;
+    background-color: rgba(213, 140, 236, 0.912);
     border: 1px solid rgb(209, 206, 206);
-    box-shadow: 3px 3px 3px 3px rgba(249, 247, 247, 0.83);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(4, 3, 3, 0.83);
     padding: 5px;
 }
 
 #projects-title h2 {
     color: rgb(6, 6, 6);
-    background-color: rgba(244, 171, 76, 0.774);
-    border: 1px solid rgb(209, 206, 206);
-    box-shadow: 3px 3px 3px 3px rgba(4, 3, 3, 0.83);
     font-size: 100px;
 }
 

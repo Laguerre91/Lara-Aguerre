@@ -29,7 +29,8 @@ h2 {
 .cont {
     background-color: rgba(251, 249, 252, 0.814);
     border: solid 2px rgb(5, 5, 5);
-    box-shadow: 2px 2px 2px 2px rgba(235, 228, 16, 0.83);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(5, 5, 5, 0.83);
     padding: 30px;
     height: fit-content;
 }

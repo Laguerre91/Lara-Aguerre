@@ -32,6 +32,27 @@ h2 {
     margin: 10px;
 }
 
+.carousel {
+    margin: 10px;
+    width: 95%;
+    padding: 5px;
+    background-color: rgb(226, 174, 213);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.btn-git {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    width: 30%;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgba(226, 56, 245, 0.815);
+    ;
+    border: 1px solid white;
+}
+
 .cellphone {
     margin: 10px;
 }
@@ -43,9 +64,7 @@ h3 {
 }
 
 .computer {
-    position: relative;
-    right: 5%;
-    width: 110%;
+    width: 100%;
 }
 
 p {
@@ -53,6 +72,7 @@ p {
     color: white;
     background-color: rgba(47, 45, 45, 0.639);
     border: 1px solid black;
+    border-radius: 5px;
     padding: 10px;
 }
 
@@ -60,6 +80,11 @@ p {
 
     .container-fluid {
         width: 60%;
+    }
+
+    .carousel {
+        width: 60%;
+        margin-left: 20%;
     }
 
     #projects-title {

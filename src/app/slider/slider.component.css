@@ -7,7 +7,7 @@
 
 .slider {
     overflow: hidden;
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     margin-left: 0;
     margin-right: 0;
@@ -55,11 +55,12 @@
 /* *******MAIN TITLE********** */
 
 .title-container {
+    background-color: rgb(244, 242, 238);
     position: relative;
     bottom: 70px;
-    background-color: rgb(246, 246, 243);
     border: 2px solid rgb(0, 0, 0);
-    box-shadow: 2px 2px 2px 2px rgba(218, 246, 7, 0.83);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(3, 3, 3, 0.83);
 }
 
 h1 {
@@ -119,7 +120,7 @@ h1 {
     }
 
     .cont-main {
-        width: 30% !important;
+        width: 40% !important;
     }
 
     .picture {

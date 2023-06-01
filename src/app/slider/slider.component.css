@@ -142,4 +142,9 @@ h1 {
     .social-media {
         display: inline !important;
     }
+
+    .social-media a img:hover {
+        background-color: rgba(148, 233, 192, 0.917);
+        border-radius: 50px;
+    }
 }

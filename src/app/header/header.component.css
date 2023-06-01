@@ -1,6 +1,21 @@
+.c-responsive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
 .dropdown-menu {
     background-color: rgb(251, 192, 255);
 }
+
+.social-media {
+    background-color: rgba(148, 233, 192, 0.917);
+    border-radius: 10px;
+}
+
+
 
 
 @media screen and (min-width: 768px) {

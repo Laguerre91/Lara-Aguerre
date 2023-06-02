@@ -85,7 +85,7 @@ span {
     }
 
     #contact-title h2 {
-        font-size: 250px;
+        font-size: 200px;
     }
 
     .contact {
@@ -95,7 +95,7 @@ span {
     }
 
     .contact-form {
-        width: 40%;
+        width: 50%;
         margin: 30px;
     }
 
@@ -105,5 +105,10 @@ span {
 
     .find-me {
         width: 10%;
+    }
+
+    .find-me img:hover {
+        background-color: rgba(148, 233, 192, 0.917);
+        border-radius: 50px;
     }
 }

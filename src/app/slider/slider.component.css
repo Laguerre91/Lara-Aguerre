@@ -120,15 +120,7 @@ h1 {
     }
 
     .cont-main {
-        width: 40% !important;
-    }
-
-    .picture {
-        width: 150%;
-        position: relative;
-        bottom: 100px;
-        right: 150px;
-
+        width: 50% !important;
     }
 
     .title-container {

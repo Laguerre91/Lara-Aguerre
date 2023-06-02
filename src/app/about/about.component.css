@@ -56,6 +56,12 @@ p {
     width: 70%;
 }
 
+
+.logo_be {
+
+    width: 15% !important;
+}
+
 .cert {
     margin: 2%;
 }
@@ -67,11 +73,11 @@ p {
     }
 
     .cont-ab-resp {
-        width: 60%;
+        width: 80%;
     }
 
     .cont-tec-resp {
-        margin-left: 40%;
+        margin-left: 20%;
     }
 
     #about-title {

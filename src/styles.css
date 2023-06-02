@@ -6,4 +6,5 @@
 body {
     background-image: url(./assets/img/testing.png);
     background-size: contain;
+    background-attachment: fixed;
 }

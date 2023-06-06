@@ -12,7 +12,7 @@
     width: 97%;
     border: 1px solid rgb(5, 4, 4);
     border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px rgba(2, 2, 2, 0.83);
+    box-shadow: 5px 5px rgba(2, 2, 2, 0.83);
     padding: 5px;
     background-color: rgba(213, 140, 236, 0.912);
 }
@@ -24,7 +24,7 @@
 
 .contact-form {
     border: 1px solid rgba(3, 3, 3, 0.83);
-    box-shadow: 3px 3px 3px 3px #070707;
+    box-shadow: 3px 3px #070707;
     padding: 25px;
     height: auto;
 

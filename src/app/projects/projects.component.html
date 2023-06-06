@@ -2,64 +2,45 @@
     <h2>Projects</h2>
 </div>
 
-<div id="carouselExampleCaptions" class="carousel slide container-fluid">
-
-    <div class="carousel-inner text-center">
-        <div class="carousel-item active">
-            <img src="./assets/img/crudApp.png" class="d-block w-100 computer" alt="Crud App">
-            <p>Classical CRUD in which you can make your shopping list. You can add items, delete them, and mark
-                them as you buy them!</p>
-            <a href="https://github.com/Laguerre91/crud"><button class="btn-git">GitHub</button></a>
+<div class="container text-center">
+    <div class="row projects_container">
+        <div class="card">
+            <img src="./assets/img/weather-app.png" class="card-img-top" alt="Weather App">
+            <div class="card-body">
+                <h4>Weather App</h4>
+                <p class="card-text">This is a weather app in which I learned how to make API petitions. It also has
+                    interactive animations and it's completely responsive</p>
+                <button class="github-btn">Github</button>
+            </div>
         </div>
-        <div class="carousel-item">
-            <img src="./assets/img/criptoApp.png" class="d-block w-100 computer" alt="Cripto App">
-            <p>This is a Cripto currency App in which you can know in real time the value of each coin. It is made
-                with
-                Angular and Bootstrap for the styling and it works making a petition to the CoinGecko API.</p>
-            <a href="https://github.com/Laguerre91/cripto-app"> <button class="btn-git">GitHub</button></a>
+
+        <div class="card">
+            <img src="./assets/img/spotify-clon.png" class="card-img-top" alt="Spotify clon">
+            <div class="card-body">
+                <h4>Spotify Clon</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <button class="github-btn">Github</button>
+            </div>
         </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
 
+        <div class="card">
+            <img src="./assets/img/crud-app.png" class="card-img-top" alt="Shopping list">
+            <div class="card-body">
+                <h4>Crud</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <button class="github-btn">Github</button>
+            </div>
+        </div>
 
-<!--///////////////////////////-->
-
-<div class="container-fluid text-center" data-aos="zoom-in" data-aos-duration="800" id="projects">
-
-    <div class="row">
-        <div class="col col-cont">
-            <div class="weather">
-                <h3>Touch the image :)</h3>
-                <div class="responsive-container">
-                    <div *ngIf="weatherApp; else descriptionWeatherApp">
-                        <img class="weatherImage cellphone" src="./assets/img/weatherApp.png" alt="weather App"
-                            width="230" (click)="setDescription()">
-                    </div>
-
-                    <ng-template #descriptionWeatherApp>
-                        <img class="descriptionImage cellphone" src="./assets/img/descriptionWeather.png"
-                            alt="weather app description" width="230" (click)="backWeather()">
-                    </ng-template>
-
-                    <div *ngIf="meltingApp; else descriptionMelting">
-                        <img class="weatherImage cellphone" src="./assets/img/meltingApp.png" alt="melting App"
-                            width="230" (click)="setDescriptionMelt()">
-                    </div>
-
-                    <ng-template #descriptionMelting>
-                        <img class="descriptionImage cellphone" src="./assets/img/descriptionMelting.png"
-                            alt="melting snowman app description" width="230" (click)="backMelt()">
-                    </ng-template>
-
-                </div>
+        <div class="card">
+            <img src="./assets/img/crypto.png" class="card-img-top" alt="Crypto app">
+            <div class="card-body">
+                <h4>Crypto prices</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <button class="github-btn">Github</button>
             </div>
         </div>
     </div>

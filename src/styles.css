@@ -4,8 +4,8 @@
 }
 
 body {
-    background-image: url(./assets/img/testing.png);
-    background-size: contain;
+    background-image: url(./assets/img/background-test.jpeg);
+    background-size: auto;
     background-attachment: fixed;
 }
 

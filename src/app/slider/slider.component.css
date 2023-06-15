@@ -55,7 +55,7 @@
 /* *******MAIN TITLE********** */
 
 .title-container {
-    background-color: rgb(244, 242, 238);
+    background-color: rgba(244, 242, 238, 0.776);
     position: relative;
     bottom: 70px;
     border: 2px solid rgb(0, 0, 0);

@@ -66,6 +66,10 @@ p {
     margin: 2%;
 }
 
+.google-certificate {
+    width: 100%;
+}
+
 
 @media screen and (min-width: 768px) {
     .container-fluid {

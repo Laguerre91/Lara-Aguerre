@@ -11,6 +11,7 @@
     display: flex;
     margin-left: 0;
     margin-right: 0;
+    transform: skewY(-5deg);
 }
 
 .no-margin-no-padding {
@@ -57,7 +58,7 @@
 .title-container {
     background-color: rgba(244, 242, 238, 0.776);
     position: relative;
-    bottom: 70px;
+    top: 130px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     box-shadow: 5px 5px rgba(3, 3, 3, 0.83);

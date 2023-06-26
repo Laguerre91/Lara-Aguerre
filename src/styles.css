@@ -2,3 +2,19 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-image: url(./assets/img/test.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+    background-color: black;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: blueviolet;
+    border-radius: 10px;
+}

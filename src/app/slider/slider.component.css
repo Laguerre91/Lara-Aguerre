@@ -7,11 +7,10 @@
 
 .slider {
     overflow: hidden;
-    margin-top: 150px;
     display: flex;
     margin-left: 0;
     margin-right: 0;
-    transform: skewY(-5deg);
+    transform: skewY(-8deg);
 }
 
 .no-margin-no-padding {
@@ -57,8 +56,6 @@
 
 .title-container {
     background-color: rgba(244, 242, 238, 0.776);
-    position: relative;
-    top: 130px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     box-shadow: 5px 5px rgba(3, 3, 3, 0.83);
@@ -81,6 +78,14 @@ h1 {
 
 .frontend h3 {
     font-size: 30px;
+}
+
+.habbo {
+    position: relative;
+    top: 500px;
+    margin: 0 auto;
+    width: 30%;
+    z-index: 9999;
 }
 
 @keyframes enter-2 {
@@ -113,20 +118,11 @@ h1 {
 
 @media screen and (min-width: 768px) {
 
-    .lara-photo {
-        display: inline !important;
-        width: 50%;
-        height: 450px;
-
-    }
-
     .cont-main {
-        width: 50% !important;
+        width: fit-content !important;
     }
 
     .title-container {
-        position: relative;
-        top: 180px;
         height: fit-content;
     }
 
@@ -141,5 +137,16 @@ h1 {
     .social-media a img:hover {
         background-color: rgb(0, 81, 128);
         border-radius: 50px;
+    }
+
+    .habbo {
+        position: relative;
+        left: 350px;
+        top: 350px;
+    }
+
+    .slider {
+        position: relative;
+        bottom: 150px;
     }
 }

@@ -1,5 +1,6 @@
 .container {
-    margin-bottom: 15%;
+    position: relative;
+    bottom: 80px;
 
 }
 
@@ -82,7 +83,7 @@ h1 {
 
 .habbo {
     position: relative;
-    top: 500px;
+    top: 430px;
     margin: 0 auto;
     width: 30%;
     z-index: 9999;
@@ -118,6 +119,10 @@ h1 {
 
 @media screen and (min-width: 768px) {
 
+    .container {
+        margin-bottom: 7%;
+    }
+
     .cont-main {
         width: fit-content !important;
     }
@@ -142,7 +147,7 @@ h1 {
     .habbo {
         position: relative;
         left: 350px;
-        top: 350px;
+        top: 300px;
     }
 
     .slider {
